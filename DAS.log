@@ -1,0 +1,449 @@
+2024-05-20 19:30:05,178 - INFO - Connected to MongoDB Atlas
+2024-05-20 19:30:05,188 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-05-20 19:30:05,188 - INFO - Added job "notify_status" to job store "default"
+2024-05-20 19:30:05,188 - INFO - Scheduler started
+2024-05-20 19:30:05,191 - INFO - {"message": "Waiting for suitable server to become available", "selector": "Primary()", "operation": "find", "topologyDescription": "<TopologyDescription id: 664b5765b8f1624d2cf61dcf, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-5fy145p-shard-00-00.vcarrff.mongodb.net', 27017) server_type: Unknown, rtt: None>, <ServerDescription ('ac-5fy145p-shard-00-01.vcarrff.mongodb.net', 27017) server_type: Unknown, rtt: None>, <ServerDescription ('ac-5fy145p-shard-00-02.vcarrff.mongodb.net', 27017) server_type: Unknown, rtt: None>]>", "clientId": {"$oid": "664b5765b8f1624d2cf61dcf"}, "remainingTimeMS": 29}
+2024-05-20 19:30:06,098 - INFO - Tasks retrieved from the collection
+2024-05-20 19:30:06,158 - INFO - No tasks found in the DLQ collection
+2024-05-20 19:30:09,972 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-05-20 19:30:09,972 - INFO - Added job "notify_status" to job store "default"
+2024-05-20 19:30:09,972 - INFO - Scheduler started
+2024-05-20 19:30:09,981 - INFO - Initializing Spark session with master: spark://0.0.0.0:7077
+2024-05-20 19:30:10,090 - ERROR - Error running Spark job: [JAVA_GATEWAY_EXITED] Java gateway process exited before sending its port number.
+2024-05-20 19:30:10,182 - INFO - Task rec1 moved to DLQ
+2024-05-20 19:30:10,184 - INFO - Added job "run_spark_job" to job store "default"
+2024-05-20 19:30:10,237 - INFO - DLQ tasks retrieved from the collection
+2024-05-20 19:30:16,778 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-05-20 19:30:16,778 - INFO - Added job "notify_status" to job store "default"
+2024-05-20 19:30:16,778 - INFO - Scheduler started
+2024-05-20 19:30:16,782 - INFO - Initializing Spark session with master: spark://0.0.0.0:7077
+2024-05-20 19:30:16,890 - ERROR - Error running Spark job: [JAVA_GATEWAY_EXITED] Java gateway process exited before sending its port number.
+2024-05-20 19:30:16,953 - INFO - Task rec1 moved to DLQ
+2024-05-20 19:30:16,956 - INFO - Added job "run_spark_job" to job store "default"
+2024-05-20 19:30:17,013 - INFO - DLQ tasks retrieved from the collection
+2024-05-20 19:30:17,943 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-05-20 19:30:17,943 - INFO - Added job "notify_status" to job store "default"
+2024-05-20 19:30:17,944 - INFO - Scheduler started
+2024-05-20 19:30:17,951 - INFO - Initializing Spark session with master: spark://0.0.0.0:7077
+2024-05-20 19:30:18,058 - ERROR - Error running Spark job: [JAVA_GATEWAY_EXITED] Java gateway process exited before sending its port number.
+2024-05-20 19:30:18,115 - INFO - Task rec1 moved to DLQ
+2024-05-20 19:30:18,117 - INFO - Added job "run_spark_job" to job store "default"
+2024-05-20 19:30:18,166 - INFO - DLQ tasks retrieved from the collection
+2024-05-20 19:30:22,099 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-05-20 19:30:22,099 - INFO - Added job "notify_status" to job store "default"
+2024-05-20 19:30:22,099 - INFO - Scheduler started
+2024-05-20 19:30:22,107 - INFO - Initializing Spark session with master: spark://0.0.0.0:7077
+2024-05-20 19:30:22,221 - ERROR - Error running Spark job: [JAVA_GATEWAY_EXITED] Java gateway process exited before sending its port number.
+2024-05-20 19:30:22,278 - INFO - Task rec1 moved to DLQ
+2024-05-20 19:30:22,280 - INFO - Added job "run_spark_job" to job store "default"
+2024-05-20 19:30:22,328 - INFO - DLQ tasks retrieved from the collection
+2024-05-20 19:30:22,890 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-05-20 19:30:22,891 - INFO - Added job "notify_status" to job store "default"
+2024-05-20 19:30:22,891 - INFO - Scheduler started
+2024-05-20 19:30:22,901 - INFO - Initializing Spark session with master: spark://0.0.0.0:7077
+2024-05-20 19:30:23,012 - ERROR - Error running Spark job: [JAVA_GATEWAY_EXITED] Java gateway process exited before sending its port number.
+2024-05-20 19:30:23,075 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-05-20 19:30:23,076 - INFO - Added job "notify_status" to job store "default"
+2024-05-20 19:30:23,076 - INFO - Scheduler started
+2024-05-20 19:30:23,080 - INFO - Initializing Spark session with master: spark://0.0.0.0:7077
+2024-05-20 19:30:23,089 - INFO - Task rec1 moved to DLQ
+2024-05-20 19:30:23,188 - ERROR - Error running Spark job: [JAVA_GATEWAY_EXITED] Java gateway process exited before sending its port number.
+2024-05-20 19:30:23,259 - INFO - Task rec1 moved to DLQ
+2024-05-20 19:30:23,262 - INFO - Added job "run_spark_job" to job store "default"
+2024-05-20 19:30:23,318 - INFO - DLQ tasks retrieved from the collection
+2024-05-20 19:30:38,275 - INFO - Streamlit server is shutting down
+2024-05-20 19:30:38,276 - INFO - SERVER IS DOWN
+2024-05-20 19:30:38,276 - INFO - Streamlit server is shutting down
+2024-05-20 19:30:38,277 - INFO - SERVER IS DOWN
+2024-05-22 14:57:15,527 - INFO - Connected to MongoDB Atlas
+2024-05-22 14:57:15,537 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-05-22 14:57:15,537 - INFO - Added job "notify_status" to job store "default"
+2024-05-22 14:57:15,538 - INFO - Scheduler started
+2024-05-22 14:57:15,544 - INFO - {"message": "Waiting for suitable server to become available", "selector": "Primary()", "operation": "find", "topologyDescription": "<TopologyDescription id: 664dba73a7048538a3887389, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-5fy145p-shard-00-00.vcarrff.mongodb.net', 27017) server_type: Unknown, rtt: None>, <ServerDescription ('ac-5fy145p-shard-00-01.vcarrff.mongodb.net', 27017) server_type: Unknown, rtt: None>, <ServerDescription ('ac-5fy145p-shard-00-02.vcarrff.mongodb.net', 27017) server_type: Unknown, rtt: None>]>", "clientId": {"$oid": "664dba73a7048538a3887389"}, "remainingTimeMS": 29}
+2024-05-22 14:57:16,354 - INFO - Tasks retrieved from the collection
+2024-05-22 14:57:16,410 - INFO - DLQ tasks retrieved from the collection
+2024-05-22 14:57:22,461 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-05-22 14:57:22,462 - INFO - Added job "notify_status" to job store "default"
+2024-05-22 14:57:22,462 - INFO - Scheduler started
+2024-05-22 14:57:22,470 - INFO - Initializing Spark session with master: spark://0.0.0.0:7077
+2024-05-22 14:57:31,309 - INFO - Running Spark job for recipe_id: rec1 using script: C:/Users/0rame/Desktop/DAS_server/spark_job_logic.py
+2024-05-22 14:57:31,309 - ERROR - Error running Spark job: [Errno 2] No such file or directory: 'C:/Users/0rame/Desktop/DAS_server/spark_job_logic.py'
+2024-05-22 14:57:31,453 - INFO - Task rec1 moved to DLQ
+2024-05-22 14:57:31,454 - INFO - Added job "run_spark_job" to job store "default"
+2024-05-22 14:57:31,585 - INFO - DLQ tasks retrieved from the collection
+2024-05-22 14:57:31,625 - INFO - Closing down clientserver connection
+2024-05-22 14:58:00,001 - INFO - Running job "run_spark_job (trigger: cron[month='*', day='*', day_of_week='*', hour='*', minute='*/2'], next run at: 2024-05-22 14:58:00 IST)" (scheduled at 2024-05-22 14:58:00+05:30)
+2024-05-22 14:58:00,006 - INFO - Initializing Spark session with master: spark://0.0.0.0:7077
+2024-05-22 14:58:00,827 - INFO - Running Spark job for recipe_id: rec1 using script: C:/Users/0rame/Desktop/DAS_server/spark_job_logic.py
+2024-05-22 14:58:00,827 - ERROR - Error running Spark job: [Errno 2] No such file or directory: 'C:/Users/0rame/Desktop/DAS_server/spark_job_logic.py'
+2024-05-22 14:58:00,834 - INFO - Connected to MongoDB Atlas
+2024-05-22 14:58:00,834 - INFO - {"message": "Waiting for suitable server to become available", "selector": "<function writable_server_selector at 0x7a71ec1eb010>", "operation": "insert", "topologyDescription": "<TopologyDescription id: 664dbaa0a7048538a388738b, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-5fy145p-shard-00-00.vcarrff.mongodb.net', 27017) server_type: Unknown, rtt: None>, <ServerDescription ('ac-5fy145p-shard-00-01.vcarrff.mongodb.net', 27017) server_type: Unknown, rtt: None>, <ServerDescription ('ac-5fy145p-shard-00-02.vcarrff.mongodb.net', 27017) server_type: Unknown, rtt: None>]>", "clientId": {"$oid": "664dbaa0a7048538a388738b"}, "remainingTimeMS": 29}
+2024-05-22 14:58:01,382 - INFO - Task rec1 moved to DLQ
+2024-05-22 14:58:01,383 - ERROR - Job "run_spark_job (trigger: cron[month='*', day='*', day_of_week='*', hour='*', minute='*/2'], next run at: 2024-05-22 15:00:00 IST)" raised an exception
+Traceback (most recent call last):
+  File "/home/ramees/PycharmProjects/DAS/.venv/lib/python3.10/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/home/ramees/PycharmProjects/DAS/dlq.py", line 54, in run_spark_job
+    with open(script_path, 'r') as file:
+FileNotFoundError: [Errno 2] No such file or directory: 'C:/Users/0rame/Desktop/DAS_server/spark_job_logic.py'
+2024-05-22 14:58:15,538 - INFO - Running job "notify_status (trigger: interval[0:01:00], next run at: 2024-05-22 14:58:15 IST)" (scheduled at 2024-05-22 14:58:15.537548+05:30)
+2024-05-22 14:58:15,538 - INFO - Server is running and monitoring tasks
+2024-05-22 14:58:15,539 - INFO - Job "notify_status (trigger: interval[0:01:00], next run at: 2024-05-22 14:59:15 IST)" executed successfully
+2024-05-22 14:58:22,461 - INFO - Running job "notify_status (trigger: interval[0:01:00], next run at: 2024-05-22 14:59:22 IST)" (scheduled at 2024-05-22 14:58:22.461271+05:30)
+2024-05-22 14:58:22,462 - INFO - Server is running and monitoring tasks
+2024-05-22 14:58:22,462 - INFO - Job "notify_status (trigger: interval[0:01:00], next run at: 2024-05-22 14:59:22 IST)" executed successfully
+2024-05-22 14:59:15,538 - INFO - Running job "notify_status (trigger: interval[0:01:00], next run at: 2024-05-22 15:00:15 IST)" (scheduled at 2024-05-22 14:59:15.537548+05:30)
+2024-05-22 14:59:15,538 - INFO - Server is running and monitoring tasks
+2024-05-22 14:59:15,538 - INFO - Job "notify_status (trigger: interval[0:01:00], next run at: 2024-05-22 15:00:15 IST)" executed successfully
+2024-05-22 14:59:22,462 - INFO - Running job "notify_status (trigger: interval[0:01:00], next run at: 2024-05-22 15:00:22 IST)" (scheduled at 2024-05-22 14:59:22.461271+05:30)
+2024-05-22 14:59:22,462 - INFO - Server is running and monitoring tasks
+2024-05-22 14:59:22,462 - INFO - Job "notify_status (trigger: interval[0:01:00], next run at: 2024-05-22 15:00:22 IST)" executed successfully
+2024-05-22 15:00:00,000 - INFO - Running job "run_spark_job (trigger: cron[month='*', day='*', day_of_week='*', hour='*', minute='*/2'], next run at: 2024-05-22 15:02:00 IST)" (scheduled at 2024-05-22 15:00:00+05:30)
+2024-05-22 15:00:00,000 - INFO - Initializing Spark session with master: spark://0.0.0.0:7077
+2024-05-22 15:00:00,004 - INFO - Running Spark job for recipe_id: rec1 using script: C:/Users/0rame/Desktop/DAS_server/spark_job_logic.py
+2024-05-22 15:00:00,004 - ERROR - Error running Spark job: [Errno 2] No such file or directory: 'C:/Users/0rame/Desktop/DAS_server/spark_job_logic.py'
+2024-05-22 15:00:11,435 - INFO - Connected to MongoDB Atlas
+2024-05-22 15:00:11,436 - INFO - {"message": "Waiting for suitable server to become available", "selector": "<function writable_server_selector at 0x7a71ec1eb010>", "operation": "insert", "topologyDescription": "<TopologyDescription id: 664dbb23a7048538a388738d, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-5fy145p-shard-00-00.vcarrff.mongodb.net', 27017) server_type: Unknown, rtt: None>, <ServerDescription ('ac-5fy145p-shard-00-01.vcarrff.mongodb.net', 27017) server_type: Unknown, rtt: None>, <ServerDescription ('ac-5fy145p-shard-00-02.vcarrff.mongodb.net', 27017) server_type: Unknown, rtt: None>]>", "clientId": {"$oid": "664dbb23a7048538a388738d"}, "remainingTimeMS": 29}
+2024-05-22 15:00:12,250 - INFO - Task rec1 moved to DLQ
+2024-05-22 15:00:12,251 - ERROR - Job "run_spark_job (trigger: cron[month='*', day='*', day_of_week='*', hour='*', minute='*/2'], next run at: 2024-05-22 15:02:00 IST)" raised an exception
+Traceback (most recent call last):
+  File "/home/ramees/PycharmProjects/DAS/.venv/lib/python3.10/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/home/ramees/PycharmProjects/DAS/dlq.py", line 54, in run_spark_job
+    with open(script_path, 'r') as file:
+FileNotFoundError: [Errno 2] No such file or directory: 'C:/Users/0rame/Desktop/DAS_server/spark_job_logic.py'
+2024-05-22 15:00:15,538 - INFO - Running job "notify_status (trigger: interval[0:01:00], next run at: 2024-05-22 15:01:15 IST)" (scheduled at 2024-05-22 15:00:15.537548+05:30)
+2024-05-22 15:00:15,538 - INFO - Server is running and monitoring tasks
+2024-05-22 15:00:15,538 - INFO - Job "notify_status (trigger: interval[0:01:00], next run at: 2024-05-22 15:01:15 IST)" executed successfully
+2024-05-22 15:00:22,461 - INFO - Running job "notify_status (trigger: interval[0:01:00], next run at: 2024-05-22 15:01:22 IST)" (scheduled at 2024-05-22 15:00:22.461271+05:30)
+2024-05-22 15:00:22,462 - INFO - Server is running and monitoring tasks
+2024-05-22 15:00:22,463 - INFO - Job "notify_status (trigger: interval[0:01:00], next run at: 2024-05-22 15:01:22 IST)" executed successfully
+2024-05-22 15:01:15,538 - INFO - Running job "notify_status (trigger: interval[0:01:00], next run at: 2024-05-22 15:02:15 IST)" (scheduled at 2024-05-22 15:01:15.537548+05:30)
+2024-05-22 15:01:15,538 - INFO - Server is running and monitoring tasks
+2024-05-22 15:01:15,543 - INFO - Job "notify_status (trigger: interval[0:01:00], next run at: 2024-05-22 15:02:15 IST)" executed successfully
+2024-05-22 15:01:22,462 - INFO - Running job "notify_status (trigger: interval[0:01:00], next run at: 2024-05-22 15:02:22 IST)" (scheduled at 2024-05-22 15:01:22.461271+05:30)
+2024-05-22 15:01:22,462 - INFO - Server is running and monitoring tasks
+2024-05-22 15:01:22,462 - INFO - Job "notify_status (trigger: interval[0:01:00], next run at: 2024-05-22 15:02:22 IST)" executed successfully
+2024-05-22 15:02:00,001 - INFO - Running job "run_spark_job (trigger: cron[month='*', day='*', day_of_week='*', hour='*', minute='*/2'], next run at: 2024-05-22 15:04:00 IST)" (scheduled at 2024-05-22 15:02:00+05:30)
+2024-05-22 15:02:00,001 - INFO - Initializing Spark session with master: spark://0.0.0.0:7077
+2024-05-22 15:02:00,007 - INFO - Running Spark job for recipe_id: rec1 using script: C:/Users/0rame/Desktop/DAS_server/spark_job_logic.py
+2024-05-22 15:02:00,007 - ERROR - Error running Spark job: [Errno 2] No such file or directory: 'C:/Users/0rame/Desktop/DAS_server/spark_job_logic.py'
+2024-05-22 15:02:00,128 - INFO - Connected to MongoDB Atlas
+2024-05-22 15:02:00,129 - INFO - {"message": "Waiting for suitable server to become available", "selector": "<function writable_server_selector at 0x7a71ec1eb010>", "operation": "insert", "topologyDescription": "<TopologyDescription id: 664dbb90a7048538a388738f, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-5fy145p-shard-00-00.vcarrff.mongodb.net', 27017) server_type: Unknown, rtt: None>, <ServerDescription ('ac-5fy145p-shard-00-01.vcarrff.mongodb.net', 27017) server_type: Unknown, rtt: None>, <ServerDescription ('ac-5fy145p-shard-00-02.vcarrff.mongodb.net', 27017) server_type: Unknown, rtt: None>]>", "clientId": {"$oid": "664dbb90a7048538a388738f"}, "remainingTimeMS": 29}
+2024-05-22 15:02:01,002 - INFO - Task rec1 moved to DLQ
+2024-05-22 15:02:01,003 - ERROR - Job "run_spark_job (trigger: cron[month='*', day='*', day_of_week='*', hour='*', minute='*/2'], next run at: 2024-05-22 15:04:00 IST)" raised an exception
+Traceback (most recent call last):
+  File "/home/ramees/PycharmProjects/DAS/.venv/lib/python3.10/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/home/ramees/PycharmProjects/DAS/dlq.py", line 54, in run_spark_job
+    with open(script_path, 'r') as file:
+FileNotFoundError: [Errno 2] No such file or directory: 'C:/Users/0rame/Desktop/DAS_server/spark_job_logic.py'
+2024-05-22 15:02:15,538 - INFO - Running job "notify_status (trigger: interval[0:01:00], next run at: 2024-05-22 15:03:15 IST)" (scheduled at 2024-05-22 15:02:15.537548+05:30)
+2024-05-22 15:02:15,538 - INFO - Server is running and monitoring tasks
+2024-05-22 15:02:15,538 - INFO - Job "notify_status (trigger: interval[0:01:00], next run at: 2024-05-22 15:03:15 IST)" executed successfully
+2024-05-22 15:02:22,461 - INFO - Running job "notify_status (trigger: interval[0:01:00], next run at: 2024-05-22 15:03:22 IST)" (scheduled at 2024-05-22 15:02:22.461271+05:30)
+2024-05-22 15:02:22,462 - INFO - Server is running and monitoring tasks
+2024-05-22 15:02:22,462 - INFO - Job "notify_status (trigger: interval[0:01:00], next run at: 2024-05-22 15:03:22 IST)" executed successfully
+2024-05-22 15:03:15,538 - INFO - Running job "notify_status (trigger: interval[0:01:00], next run at: 2024-05-22 15:04:15 IST)" (scheduled at 2024-05-22 15:03:15.537548+05:30)
+2024-05-22 15:03:15,538 - INFO - Server is running and monitoring tasks
+2024-05-22 15:03:15,544 - INFO - Job "notify_status (trigger: interval[0:01:00], next run at: 2024-05-22 15:04:15 IST)" executed successfully
+2024-05-22 15:03:22,461 - INFO - Running job "notify_status (trigger: interval[0:01:00], next run at: 2024-05-22 15:04:22 IST)" (scheduled at 2024-05-22 15:03:22.461271+05:30)
+2024-05-22 15:03:22,462 - INFO - Server is running and monitoring tasks
+2024-05-22 15:03:22,462 - INFO - Job "notify_status (trigger: interval[0:01:00], next run at: 2024-05-22 15:04:22 IST)" executed successfully
+2024-05-22 15:03:56,364 - INFO - Closing down clientserver connection
+2024-05-22 15:03:56,611 - INFO - Closing down clientserver connection
+2024-05-22 15:04:00,085 - INFO - Connected to MongoDB Atlas
+2024-05-22 15:04:00,092 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-05-22 15:04:00,092 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-05-22 15:04:00,093 - INFO - Added job "notify_status" to job store "default"
+2024-05-22 15:04:00,093 - INFO - Added job "notify_status" to job store "default"
+2024-05-22 15:04:00,093 - INFO - Scheduler started
+2024-05-22 15:04:00,093 - INFO - Scheduler started
+2024-05-22 15:04:00,099 - INFO - {"message": "Waiting for suitable server to become available", "selector": "Primary()", "operation": "find", "topologyDescription": "<TopologyDescription id: 664dbc08894024fcb53c6840, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-5fy145p-shard-00-00.vcarrff.mongodb.net', 27017) server_type: Unknown, rtt: None>, <ServerDescription ('ac-5fy145p-shard-00-01.vcarrff.mongodb.net', 27017) server_type: Unknown, rtt: None>, <ServerDescription ('ac-5fy145p-shard-00-02.vcarrff.mongodb.net', 27017) server_type: Unknown, rtt: None>]>", "clientId": {"$oid": "664dbc08894024fcb53c6840"}, "remainingTimeMS": 29}
+2024-05-22 15:04:00,910 - INFO - Tasks retrieved from the collection
+2024-05-22 15:04:00,969 - INFO - DLQ tasks retrieved from the collection
+2024-05-22 15:04:01,286 - INFO - DLQ tasks retrieved from the collection
+2024-05-22 15:04:02,466 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-05-22 15:04:02,468 - INFO - Added job "notify_status" to job store "default"
+2024-05-22 15:04:02,468 - INFO - Scheduler started
+2024-05-22 15:04:02,477 - INFO - Initializing Spark session with master: spark://0.0.0.0:7077
+2024-05-22 15:04:10,756 - INFO - Running Spark job for recipe_id: rec1 using script: /home/ramees/PycharmProjects/DAS/demo.py
+2024-05-22 15:04:12,430 - ERROR - Error running Spark job: [PATH_NOT_FOUND] Path does not exist: file:/home/ramees/PycharmProjects/DAS/sample.txt.
+2024-05-22 15:04:12,502 - INFO - Task rec1 moved to DLQ
+2024-05-22 15:04:12,505 - INFO - Added job "run_spark_job" to job store "default"
+2024-05-22 15:04:12,600 - INFO - DLQ tasks retrieved from the collection
+2024-05-22 15:04:12,636 - INFO - Closing down clientserver connection
+2024-05-22 15:04:42,909 - INFO - Closing down clientserver connection
+2024-05-22 15:04:45,347 - INFO - Connected to MongoDB Atlas
+2024-05-22 15:04:45,353 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-05-22 15:04:45,353 - INFO - Added job "notify_status" to job store "default"
+2024-05-22 15:04:45,354 - INFO - Scheduler started
+2024-05-22 15:04:45,358 - INFO - {"message": "Waiting for suitable server to become available", "selector": "Primary()", "operation": "find", "topologyDescription": "<TopologyDescription id: 664dbc35d3e2761ec1630e4d, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-5fy145p-shard-00-00.vcarrff.mongodb.net', 27017) server_type: Unknown, rtt: None>, <ServerDescription ('ac-5fy145p-shard-00-01.vcarrff.mongodb.net', 27017) server_type: Unknown, rtt: None>, <ServerDescription ('ac-5fy145p-shard-00-02.vcarrff.mongodb.net', 27017) server_type: Unknown, rtt: None>]>", "clientId": {"$oid": "664dbc35d3e2761ec1630e4d"}, "remainingTimeMS": 29}
+2024-05-22 15:04:45,402 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-05-22 15:04:45,403 - INFO - Added job "notify_status" to job store "default"
+2024-05-22 15:04:45,403 - INFO - Scheduler started
+2024-05-22 15:04:46,174 - INFO - Tasks retrieved from the collection
+2024-05-22 15:04:46,220 - INFO - DLQ tasks retrieved from the collection
+2024-05-22 15:04:46,595 - INFO - DLQ tasks retrieved from the collection
+2024-05-22 15:04:47,660 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-05-22 15:04:47,660 - INFO - Added job "notify_status" to job store "default"
+2024-05-22 15:04:47,661 - INFO - Scheduler started
+2024-05-22 15:04:47,669 - INFO - Initializing Spark session with master: spark://0.0.0.0:7077
+2024-05-22 15:04:55,614 - INFO - Running Spark job for recipe_id: rec1 using script: /home/ramees/PycharmProjects/DAS/demo.py
+2024-05-22 15:05:05,497 - INFO - Spark job execution successful
+2024-05-22 15:05:05,505 - INFO - Added job "run_spark_job" to job store "default"
+2024-05-22 15:05:05,575 - INFO - DLQ tasks retrieved from the collection
+2024-05-22 15:05:05,610 - INFO - Closing down clientserver connection
+2024-05-22 15:05:45,354 - INFO - Running job "notify_status (trigger: interval[0:01:00], next run at: 2024-05-22 15:05:45 IST)" (scheduled at 2024-05-22 15:05:45.353461+05:30)
+2024-05-22 15:05:45,355 - INFO - Server is running and monitoring tasks
+2024-05-22 15:05:45,356 - INFO - Job "notify_status (trigger: interval[0:01:00], next run at: 2024-05-22 15:06:45 IST)" executed successfully
+2024-05-22 15:05:45,403 - INFO - Running job "notify_status (trigger: interval[0:01:00], next run at: 2024-05-22 15:05:45 IST)" (scheduled at 2024-05-22 15:05:45.402901+05:30)
+2024-05-22 15:05:45,404 - INFO - Server is running and monitoring tasks
+2024-05-22 15:05:45,404 - INFO - Job "notify_status (trigger: interval[0:01:00], next run at: 2024-05-22 15:05:45 IST)" executed successfully
+2024-05-22 15:05:47,660 - INFO - Running job "notify_status (trigger: interval[0:01:00], next run at: 2024-05-22 15:05:47 IST)" (scheduled at 2024-05-22 15:05:47.659937+05:30)
+2024-05-22 15:05:47,661 - INFO - Server is running and monitoring tasks
+2024-05-22 15:05:47,661 - INFO - Job "notify_status (trigger: interval[0:01:00], next run at: 2024-05-22 15:06:47 IST)" executed successfully
+2024-05-22 15:06:00,001 - INFO - Running job "run_spark_job (trigger: cron[month='*', day='*', day_of_week='*', hour='*', minute='*/2'], next run at: 2024-05-22 15:08:00 IST)" (scheduled at 2024-05-22 15:06:00+05:30)
+2024-05-22 15:06:00,001 - INFO - Initializing Spark session with master: spark://0.0.0.0:7077
+2024-05-22 15:06:00,097 - INFO - Running Spark job for recipe_id: rec1 using script: /home/ramees/PycharmProjects/DAS/demo.py
+2024-05-22 15:06:09,101 - INFO - Spark job execution successful
+2024-05-22 15:06:09,106 - INFO - Job "run_spark_job (trigger: cron[month='*', day='*', day_of_week='*', hour='*', minute='*/2'], next run at: 2024-05-22 15:08:00 IST)" executed successfully
+2024-05-22 15:06:45,354 - INFO - Running job "notify_status (trigger: interval[0:01:00], next run at: 2024-05-22 15:07:45 IST)" (scheduled at 2024-05-22 15:06:45.353461+05:30)
+2024-05-22 15:06:45,354 - INFO - Server is running and monitoring tasks
+2024-05-22 15:06:45,355 - INFO - Job "notify_status (trigger: interval[0:01:00], next run at: 2024-05-22 15:07:45 IST)" executed successfully
+2024-05-22 15:06:45,403 - INFO - Running job "notify_status (trigger: interval[0:01:00], next run at: 2024-05-22 15:07:45 IST)" (scheduled at 2024-05-22 15:06:45.402901+05:30)
+2024-05-22 15:06:45,403 - INFO - Server is running and monitoring tasks
+2024-05-22 15:06:45,403 - INFO - Job "notify_status (trigger: interval[0:01:00], next run at: 2024-05-22 15:07:45 IST)" executed successfully
+2024-05-22 15:06:47,660 - INFO - Running job "notify_status (trigger: interval[0:01:00], next run at: 2024-05-22 15:07:47 IST)" (scheduled at 2024-05-22 15:06:47.659937+05:30)
+2024-05-22 15:06:47,660 - INFO - Server is running and monitoring tasks
+2024-05-22 15:06:47,661 - INFO - Job "notify_status (trigger: interval[0:01:00], next run at: 2024-05-22 15:07:47 IST)" executed successfully
+2024-05-22 15:07:45,354 - INFO - Running job "notify_status (trigger: interval[0:01:00], next run at: 2024-05-22 15:08:45 IST)" (scheduled at 2024-05-22 15:07:45.353461+05:30)
+2024-05-22 15:07:45,354 - INFO - Server is running and monitoring tasks
+2024-05-22 15:07:45,354 - INFO - Job "notify_status (trigger: interval[0:01:00], next run at: 2024-05-22 15:08:45 IST)" executed successfully
+2024-05-22 15:07:45,403 - INFO - Running job "notify_status (trigger: interval[0:01:00], next run at: 2024-05-22 15:08:45 IST)" (scheduled at 2024-05-22 15:07:45.402901+05:30)
+2024-05-22 15:07:45,403 - INFO - Server is running and monitoring tasks
+2024-05-22 15:07:45,403 - INFO - Job "notify_status (trigger: interval[0:01:00], next run at: 2024-05-22 15:08:45 IST)" executed successfully
+2024-05-22 15:07:47,660 - INFO - Running job "notify_status (trigger: interval[0:01:00], next run at: 2024-05-22 15:08:47 IST)" (scheduled at 2024-05-22 15:07:47.659937+05:30)
+2024-05-22 15:07:47,661 - INFO - Server is running and monitoring tasks
+2024-05-22 15:07:47,661 - INFO - Job "notify_status (trigger: interval[0:01:00], next run at: 2024-05-22 15:08:47 IST)" executed successfully
+2024-05-22 15:08:00,001 - INFO - Running job "run_spark_job (trigger: cron[month='*', day='*', day_of_week='*', hour='*', minute='*/2'], next run at: 2024-05-22 15:10:00 IST)" (scheduled at 2024-05-22 15:08:00+05:30)
+2024-05-22 15:08:00,001 - INFO - Initializing Spark session with master: spark://0.0.0.0:7077
+2024-05-22 15:08:00,106 - INFO - Running Spark job for recipe_id: rec1 using script: /home/ramees/PycharmProjects/DAS/demo.py
+2024-05-22 15:08:09,104 - INFO - Spark job execution successful
+2024-05-22 15:08:09,110 - INFO - Job "run_spark_job (trigger: cron[month='*', day='*', day_of_week='*', hour='*', minute='*/2'], next run at: 2024-05-22 15:10:00 IST)" executed successfully
+2024-05-22 15:08:42,266 - INFO - Closing down clientserver connection
+2024-05-22 15:08:42,652 - INFO - Closing down clientserver connection
+2024-05-22 15:08:46,111 - INFO - Connected to MongoDB Atlas
+2024-05-22 15:08:46,116 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-05-22 15:08:46,117 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-05-22 15:08:46,117 - INFO - Added job "notify_status" to job store "default"
+2024-05-22 15:08:46,117 - INFO - Added job "notify_status" to job store "default"
+2024-05-22 15:08:46,117 - INFO - Scheduler started
+2024-05-22 15:08:46,117 - INFO - Scheduler started
+2024-05-22 15:08:46,123 - INFO - {"message": "Waiting for suitable server to become available", "selector": "Primary()", "operation": "find", "topologyDescription": "<TopologyDescription id: 664dbd264f193b181a7b8ebd, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-5fy145p-shard-00-00.vcarrff.mongodb.net', 27017) server_type: Unknown, rtt: None>, <ServerDescription ('ac-5fy145p-shard-00-01.vcarrff.mongodb.net', 27017) server_type: Unknown, rtt: None>, <ServerDescription ('ac-5fy145p-shard-00-02.vcarrff.mongodb.net', 27017) server_type: Unknown, rtt: None>]>", "clientId": {"$oid": "664dbd264f193b181a7b8ebd"}, "remainingTimeMS": 29}
+2024-05-22 15:08:46,782 - INFO - Tasks retrieved from the collection
+2024-05-22 15:08:46,827 - INFO - DLQ tasks retrieved from the collection
+2024-05-22 15:08:47,119 - INFO - DLQ tasks retrieved from the collection
+2024-05-22 15:08:48,386 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-05-22 15:08:48,387 - INFO - Added job "notify_status" to job store "default"
+2024-05-22 15:08:48,387 - INFO - Scheduler started
+2024-05-22 15:08:48,392 - INFO - Initializing Spark session with master: spark://0.0.0.0:7077
+2024-05-22 15:08:56,225 - INFO - Running Spark job for recipe_id: rec1 using script: /home/ramees/PycharmProjects/DAS/demo.py
+2024-05-22 15:09:05,856 - INFO - Spark job execution successful
+2024-05-22 15:09:06,114 - INFO - Added job "run_spark_job" to job store "default"
+2024-05-22 15:09:06,186 - INFO - DLQ tasks retrieved from the collection
+2024-05-22 15:09:06,221 - INFO - Closing down clientserver connection
+2024-05-22 15:09:46,117 - INFO - Running job "notify_status (trigger: interval[0:01:00], next run at: 2024-05-22 15:09:46 IST)" (scheduled at 2024-05-22 15:09:46.116834+05:30)
+2024-05-22 15:09:46,117 - INFO - Server is running and monitoring tasks
+2024-05-22 15:09:46,117 - INFO - Running job "notify_status (trigger: interval[0:01:00], next run at: 2024-05-22 15:10:46 IST)" (scheduled at 2024-05-22 15:09:46.116994+05:30)
+2024-05-22 15:09:46,117 - INFO - Job "notify_status (trigger: interval[0:01:00], next run at: 2024-05-22 15:10:46 IST)" executed successfully
+2024-05-22 15:09:46,118 - INFO - Server is running and monitoring tasks
+2024-05-22 15:09:46,118 - INFO - Job "notify_status (trigger: interval[0:01:00], next run at: 2024-05-22 15:10:46 IST)" executed successfully
+2024-05-22 15:09:48,387 - INFO - Running job "notify_status (trigger: interval[0:01:00], next run at: 2024-05-22 15:09:48 IST)" (scheduled at 2024-05-22 15:09:48.386317+05:30)
+2024-05-22 15:09:48,387 - INFO - Server is running and monitoring tasks
+2024-05-22 15:09:48,388 - INFO - Job "notify_status (trigger: interval[0:01:00], next run at: 2024-05-22 15:10:48 IST)" executed successfully
+2024-05-22 15:09:51,103 - INFO - Closing down clientserver connection
+2024-05-22 15:09:56,283 - INFO - Connected to MongoDB Atlas
+2024-05-22 15:09:56,302 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-05-22 15:09:56,303 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-05-22 15:09:56,303 - INFO - Added job "notify_status" to job store "default"
+2024-05-22 15:09:56,303 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-05-22 15:09:56,303 - INFO - Added job "notify_status" to job store "default"
+2024-05-22 15:09:56,304 - INFO - Scheduler started
+2024-05-22 15:09:56,304 - INFO - Added job "notify_status" to job store "default"
+2024-05-22 15:09:56,304 - INFO - Scheduler started
+2024-05-22 15:09:56,305 - INFO - Scheduler started
+2024-05-22 15:09:56,312 - INFO - {"message": "Waiting for suitable server to become available", "selector": "Primary()", "operation": "find", "topologyDescription": "<TopologyDescription id: 664dbd6c3336e6070f7255a6, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-5fy145p-shard-00-00.vcarrff.mongodb.net', 27017) server_type: Unknown, rtt: None>, <ServerDescription ('ac-5fy145p-shard-00-01.vcarrff.mongodb.net', 27017) server_type: Unknown, rtt: None>, <ServerDescription ('ac-5fy145p-shard-00-02.vcarrff.mongodb.net', 27017) server_type: Unknown, rtt: None>]>", "clientId": {"$oid": "664dbd6c3336e6070f7255a6"}, "remainingTimeMS": 29}
+2024-05-22 15:10:07,748 - INFO - Tasks retrieved from the collection
+2024-05-22 15:10:07,822 - INFO - DLQ tasks retrieved from the collection
+2024-05-22 15:10:08,133 - INFO - DLQ tasks retrieved from the collection
+2024-05-22 15:10:09,714 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-05-22 15:10:09,715 - INFO - Added job "notify_status" to job store "default"
+2024-05-22 15:10:09,716 - INFO - Scheduler started
+2024-05-22 15:10:09,729 - INFO - Initializing Spark session with master: spark://0.0.0.0:7077
+2024-05-22 15:10:22,815 - INFO - Running Spark job for recipe_id: rec1 using script: /home/ramees/PycharmProjects/DAS/demo.py
+2024-05-22 15:10:32,072 - INFO - Spark job execution successful
+2024-05-22 15:10:32,171 - INFO - Added job "run_spark_job" to job store "default"
+2024-05-22 15:10:32,230 - INFO - DLQ tasks retrieved from the collection
+2024-05-22 15:10:32,264 - INFO - Closing down clientserver connection
+2024-05-22 15:10:56,303 - INFO - Running job "notify_status (trigger: interval[0:01:00], next run at: 2024-05-22 15:10:56 IST)" (scheduled at 2024-05-22 15:10:56.302471+05:30)
+2024-05-22 15:10:56,303 - INFO - Server is running and monitoring tasks
+2024-05-22 15:10:56,303 - INFO - Job "notify_status (trigger: interval[0:01:00], next run at: 2024-05-22 15:10:56 IST)" executed successfully
+2024-05-22 15:10:56,305 - INFO - Running job "notify_status (trigger: interval[0:01:00], next run at: 2024-05-22 15:10:56 IST)" (scheduled at 2024-05-22 15:10:56.302897+05:30)
+2024-05-22 15:10:56,305 - INFO - Server is running and monitoring tasks
+2024-05-22 15:10:56,306 - INFO - Job "notify_status (trigger: interval[0:01:00], next run at: 2024-05-22 15:11:56 IST)" executed successfully
+2024-05-22 15:10:56,306 - INFO - Running job "notify_status (trigger: interval[0:01:00], next run at: 2024-05-22 15:10:56 IST)" (scheduled at 2024-05-22 15:10:56.303355+05:30)
+2024-05-22 15:10:56,307 - INFO - Server is running and monitoring tasks
+2024-05-22 15:10:56,307 - INFO - Job "notify_status (trigger: interval[0:01:00], next run at: 2024-05-22 15:11:56 IST)" executed successfully
+2024-05-22 15:11:09,715 - INFO - Running job "notify_status (trigger: interval[0:01:00], next run at: 2024-05-22 15:11:09 IST)" (scheduled at 2024-05-22 15:11:09.714757+05:30)
+2024-05-22 15:11:09,716 - INFO - Server is running and monitoring tasks
+2024-05-22 15:11:09,716 - INFO - Job "notify_status (trigger: interval[0:01:00], next run at: 2024-05-22 15:11:09 IST)" executed successfully
+2024-05-22 15:11:56,303 - INFO - Running job "notify_status (trigger: interval[0:01:00], next run at: 2024-05-22 15:12:56 IST)" (scheduled at 2024-05-22 15:11:56.302471+05:30)
+2024-05-22 15:11:56,303 - INFO - Server is running and monitoring tasks
+2024-05-22 15:11:56,304 - INFO - Running job "notify_status (trigger: interval[0:01:00], next run at: 2024-05-22 15:12:56 IST)" (scheduled at 2024-05-22 15:11:56.302897+05:30)
+2024-05-22 15:11:56,305 - INFO - Server is running and monitoring tasks
+2024-05-22 15:11:56,305 - INFO - Job "notify_status (trigger: interval[0:01:00], next run at: 2024-05-22 15:12:56 IST)" executed successfully
+2024-05-22 15:11:56,305 - INFO - Running job "notify_status (trigger: interval[0:01:00], next run at: 2024-05-22 15:12:56 IST)" (scheduled at 2024-05-22 15:11:56.303355+05:30)
+2024-05-22 15:11:56,306 - INFO - Job "notify_status (trigger: interval[0:01:00], next run at: 2024-05-22 15:12:56 IST)" executed successfully
+2024-05-22 15:11:56,306 - INFO - Server is running and monitoring tasks
+2024-05-22 15:11:56,307 - INFO - Job "notify_status (trigger: interval[0:01:00], next run at: 2024-05-22 15:12:56 IST)" executed successfully
+2024-05-22 15:12:00,000 - INFO - Running job "run_spark_job (trigger: cron[month='*', day='*', day_of_week='*', hour='*', minute='*/2'], next run at: 2024-05-22 15:14:00 IST)" (scheduled at 2024-05-22 15:12:00+05:30)
+2024-05-22 15:12:00,001 - INFO - Initializing Spark session with master: spark://0.0.0.0:7077
+2024-05-22 15:12:00,098 - INFO - Running Spark job for recipe_id: rec1 using script: /home/ramees/PycharmProjects/DAS/demo.py
+2024-05-22 15:12:08,535 - INFO - Spark job execution successful
+2024-05-22 15:12:08,592 - INFO - Job "run_spark_job (trigger: cron[month='*', day='*', day_of_week='*', hour='*', minute='*/2'], next run at: 2024-05-22 15:14:00 IST)" executed successfully
+2024-05-22 15:12:09,715 - INFO - Running job "notify_status (trigger: interval[0:01:00], next run at: 2024-05-22 15:13:09 IST)" (scheduled at 2024-05-22 15:12:09.714757+05:30)
+2024-05-22 15:12:09,715 - INFO - Server is running and monitoring tasks
+2024-05-22 15:12:09,716 - INFO - Job "notify_status (trigger: interval[0:01:00], next run at: 2024-05-22 15:13:09 IST)" executed successfully
+2024-05-22 15:12:56,303 - INFO - Running job "notify_status (trigger: interval[0:01:00], next run at: 2024-05-22 15:13:56 IST)" (scheduled at 2024-05-22 15:12:56.302471+05:30)
+2024-05-22 15:12:56,303 - INFO - Server is running and monitoring tasks
+2024-05-22 15:12:56,304 - INFO - Job "notify_status (trigger: interval[0:01:00], next run at: 2024-05-22 15:13:56 IST)" executed successfully
+2024-05-22 15:12:56,305 - INFO - Running job "notify_status (trigger: interval[0:01:00], next run at: 2024-05-22 15:13:56 IST)" (scheduled at 2024-05-22 15:12:56.302897+05:30)
+2024-05-22 15:12:56,305 - INFO - Server is running and monitoring tasks
+2024-05-22 15:12:56,305 - INFO - Job "notify_status (trigger: interval[0:01:00], next run at: 2024-05-22 15:13:56 IST)" executed successfully
+2024-05-22 15:12:56,306 - INFO - Running job "notify_status (trigger: interval[0:01:00], next run at: 2024-05-22 15:13:56 IST)" (scheduled at 2024-05-22 15:12:56.303355+05:30)
+2024-05-22 15:12:56,306 - INFO - Server is running and monitoring tasks
+2024-05-22 15:12:56,306 - INFO - Job "notify_status (trigger: interval[0:01:00], next run at: 2024-05-22 15:13:56 IST)" executed successfully
+2024-05-22 15:13:09,715 - INFO - Running job "notify_status (trigger: interval[0:01:00], next run at: 2024-05-22 15:14:09 IST)" (scheduled at 2024-05-22 15:13:09.714757+05:30)
+2024-05-22 15:13:09,715 - INFO - Server is running and monitoring tasks
+2024-05-22 15:13:09,716 - INFO - Job "notify_status (trigger: interval[0:01:00], next run at: 2024-05-22 15:14:09 IST)" executed successfully
+2024-05-22 15:13:56,302 - INFO - Running job "notify_status (trigger: interval[0:01:00], next run at: 2024-05-22 15:14:56 IST)" (scheduled at 2024-05-22 15:13:56.302471+05:30)
+2024-05-22 15:13:56,303 - INFO - Server is running and monitoring tasks
+2024-05-22 15:13:56,303 - INFO - Job "notify_status (trigger: interval[0:01:00], next run at: 2024-05-22 15:14:56 IST)" executed successfully
+2024-05-22 15:13:56,303 - INFO - Running job "notify_status (trigger: interval[0:01:00], next run at: 2024-05-22 15:14:56 IST)" (scheduled at 2024-05-22 15:13:56.302897+05:30)
+2024-05-22 15:13:56,303 - INFO - Running job "notify_status (trigger: interval[0:01:00], next run at: 2024-05-22 15:14:56 IST)" (scheduled at 2024-05-22 15:13:56.303355+05:30)
+2024-05-22 15:13:56,303 - INFO - Server is running and monitoring tasks
+2024-05-22 15:13:56,303 - INFO - Server is running and monitoring tasks
+2024-05-22 15:13:56,303 - INFO - Job "notify_status (trigger: interval[0:01:00], next run at: 2024-05-22 15:14:56 IST)" executed successfully
+2024-05-22 15:13:56,304 - INFO - Job "notify_status (trigger: interval[0:01:00], next run at: 2024-05-22 15:14:56 IST)" executed successfully
+2024-05-22 15:14:00,000 - INFO - Running job "run_spark_job (trigger: cron[month='*', day='*', day_of_week='*', hour='*', minute='*/2'], next run at: 2024-05-22 15:16:00 IST)" (scheduled at 2024-05-22 15:14:00+05:30)
+2024-05-22 15:14:00,001 - INFO - Initializing Spark session with master: spark://0.0.0.0:7077
+2024-05-22 15:14:00,105 - INFO - Running Spark job for recipe_id: rec1 using script: /home/ramees/PycharmProjects/DAS/demo.py
+2024-05-22 15:14:09,511 - INFO - Spark job execution successful
+2024-05-22 15:14:09,599 - INFO - Job "run_spark_job (trigger: cron[month='*', day='*', day_of_week='*', hour='*', minute='*/2'], next run at: 2024-05-22 15:16:00 IST)" executed successfully
+2024-05-22 15:14:09,715 - INFO - Running job "notify_status (trigger: interval[0:01:00], next run at: 2024-05-22 15:15:09 IST)" (scheduled at 2024-05-22 15:14:09.714757+05:30)
+2024-05-22 15:14:09,715 - INFO - Server is running and monitoring tasks
+2024-05-22 15:14:09,715 - INFO - Job "notify_status (trigger: interval[0:01:00], next run at: 2024-05-22 15:15:09 IST)" executed successfully
+2024-05-22 15:14:56,302 - INFO - Running job "notify_status (trigger: interval[0:01:00], next run at: 2024-05-22 15:15:56 IST)" (scheduled at 2024-05-22 15:14:56.302471+05:30)
+2024-05-22 15:14:56,303 - INFO - Server is running and monitoring tasks
+2024-05-22 15:14:56,303 - INFO - Job "notify_status (trigger: interval[0:01:00], next run at: 2024-05-22 15:15:56 IST)" executed successfully
+2024-05-22 15:14:56,303 - INFO - Running job "notify_status (trigger: interval[0:01:00], next run at: 2024-05-22 15:15:56 IST)" (scheduled at 2024-05-22 15:14:56.302897+05:30)
+2024-05-22 15:14:56,303 - INFO - Running job "notify_status (trigger: interval[0:01:00], next run at: 2024-05-22 15:15:56 IST)" (scheduled at 2024-05-22 15:14:56.303355+05:30)
+2024-05-22 15:14:56,304 - INFO - Server is running and monitoring tasks
+2024-05-22 15:14:56,304 - INFO - Server is running and monitoring tasks
+2024-05-22 15:14:56,304 - INFO - Job "notify_status (trigger: interval[0:01:00], next run at: 2024-05-22 15:15:56 IST)" executed successfully
+2024-05-22 15:14:56,304 - INFO - Job "notify_status (trigger: interval[0:01:00], next run at: 2024-05-22 15:15:56 IST)" executed successfully
+2024-05-22 15:15:09,715 - INFO - Running job "notify_status (trigger: interval[0:01:00], next run at: 2024-05-22 15:16:09 IST)" (scheduled at 2024-05-22 15:15:09.714757+05:30)
+2024-05-22 15:15:09,715 - INFO - Server is running and monitoring tasks
+2024-05-22 15:15:09,715 - INFO - Job "notify_status (trigger: interval[0:01:00], next run at: 2024-05-22 15:16:09 IST)" executed successfully
+2024-05-22 15:15:56,302 - INFO - Running job "notify_status (trigger: interval[0:01:00], next run at: 2024-05-22 15:16:56 IST)" (scheduled at 2024-05-22 15:15:56.302471+05:30)
+2024-05-22 15:15:56,302 - INFO - Server is running and monitoring tasks
+2024-05-22 15:15:56,303 - INFO - Job "notify_status (trigger: interval[0:01:00], next run at: 2024-05-22 15:16:56 IST)" executed successfully
+2024-05-22 15:15:56,303 - INFO - Running job "notify_status (trigger: interval[0:01:00], next run at: 2024-05-22 15:16:56 IST)" (scheduled at 2024-05-22 15:15:56.302897+05:30)
+2024-05-22 15:15:56,303 - INFO - Running job "notify_status (trigger: interval[0:01:00], next run at: 2024-05-22 15:16:56 IST)" (scheduled at 2024-05-22 15:15:56.303355+05:30)
+2024-05-22 15:15:56,303 - INFO - Server is running and monitoring tasks
+2024-05-22 15:15:56,303 - INFO - Server is running and monitoring tasks
+2024-05-22 15:15:56,303 - INFO - Job "notify_status (trigger: interval[0:01:00], next run at: 2024-05-22 15:16:56 IST)" executed successfully
+2024-05-22 15:15:56,303 - INFO - Job "notify_status (trigger: interval[0:01:00], next run at: 2024-05-22 15:16:56 IST)" executed successfully
+2024-05-22 15:16:00,001 - INFO - Running job "run_spark_job (trigger: cron[month='*', day='*', day_of_week='*', hour='*', minute='*/2'], next run at: 2024-05-22 15:18:00 IST)" (scheduled at 2024-05-22 15:16:00+05:30)
+2024-05-22 15:16:00,001 - INFO - Initializing Spark session with master: spark://0.0.0.0:7077
+2024-05-22 15:16:00,089 - INFO - Running Spark job for recipe_id: rec1 using script: /home/ramees/PycharmProjects/DAS/demo.py
+2024-05-22 15:16:09,010 - INFO - Spark job execution successful
+2024-05-22 15:16:09,088 - INFO - Job "run_spark_job (trigger: cron[month='*', day='*', day_of_week='*', hour='*', minute='*/2'], next run at: 2024-05-22 15:18:00 IST)" executed successfully
+2024-05-22 15:16:09,716 - INFO - Running job "notify_status (trigger: interval[0:01:00], next run at: 2024-05-22 15:17:09 IST)" (scheduled at 2024-05-22 15:16:09.714757+05:30)
+2024-05-22 15:16:09,716 - INFO - Server is running and monitoring tasks
+2024-05-22 15:16:09,717 - INFO - Job "notify_status (trigger: interval[0:01:00], next run at: 2024-05-22 15:17:09 IST)" executed successfully
+2024-05-22 15:16:56,307 - INFO - Running job "notify_status (trigger: interval[0:01:00], next run at: 2024-05-22 15:17:56 IST)" (scheduled at 2024-05-22 15:16:56.302471+05:30)
+2024-05-22 15:16:56,308 - INFO - Running job "notify_status (trigger: interval[0:01:00], next run at: 2024-05-22 15:17:56 IST)" (scheduled at 2024-05-22 15:16:56.303355+05:30)
+2024-05-22 15:16:56,309 - INFO - Running job "notify_status (trigger: interval[0:01:00], next run at: 2024-05-22 15:17:56 IST)" (scheduled at 2024-05-22 15:16:56.302897+05:30)
+2024-05-22 15:16:56,309 - INFO - Server is running and monitoring tasks
+2024-05-22 15:16:56,309 - INFO - Server is running and monitoring tasks
+2024-05-22 15:16:56,309 - INFO - Server is running and monitoring tasks
+2024-05-22 15:16:56,309 - INFO - Job "notify_status (trigger: interval[0:01:00], next run at: 2024-05-22 15:17:56 IST)" executed successfully
+2024-05-22 15:16:56,309 - INFO - Job "notify_status (trigger: interval[0:01:00], next run at: 2024-05-22 15:17:56 IST)" executed successfully
+2024-05-22 15:16:56,309 - INFO - Job "notify_status (trigger: interval[0:01:00], next run at: 2024-05-22 15:17:56 IST)" executed successfully
+2024-05-22 15:17:09,720 - INFO - Running job "notify_status (trigger: interval[0:01:00], next run at: 2024-05-22 15:18:09 IST)" (scheduled at 2024-05-22 15:17:09.714757+05:30)
+2024-05-22 15:17:09,720 - INFO - Server is running and monitoring tasks
+2024-05-22 15:17:09,720 - INFO - Job "notify_status (trigger: interval[0:01:00], next run at: 2024-05-22 15:18:09 IST)" executed successfully
+2024-05-22 15:17:56,303 - INFO - Running job "notify_status (trigger: interval[0:01:00], next run at: 2024-05-22 15:18:56 IST)" (scheduled at 2024-05-22 15:17:56.302471+05:30)
+2024-05-22 15:17:56,304 - INFO - Server is running and monitoring tasks
+2024-05-22 15:17:56,305 - INFO - Running job "notify_status (trigger: interval[0:01:00], next run at: 2024-05-22 15:18:56 IST)" (scheduled at 2024-05-22 15:17:56.303355+05:30)
+2024-05-22 15:17:56,305 - INFO - Job "notify_status (trigger: interval[0:01:00], next run at: 2024-05-22 15:18:56 IST)" executed successfully
+2024-05-22 15:17:56,305 - INFO - Running job "notify_status (trigger: interval[0:01:00], next run at: 2024-05-22 15:18:56 IST)" (scheduled at 2024-05-22 15:17:56.302897+05:30)
+2024-05-22 15:17:56,305 - INFO - Server is running and monitoring tasks
+2024-05-22 15:17:56,306 - INFO - Server is running and monitoring tasks
+2024-05-22 15:17:56,307 - INFO - Job "notify_status (trigger: interval[0:01:00], next run at: 2024-05-22 15:18:56 IST)" executed successfully
+2024-05-22 15:17:56,307 - INFO - Job "notify_status (trigger: interval[0:01:00], next run at: 2024-05-22 15:18:56 IST)" executed successfully
+2024-05-22 15:18:00,006 - INFO - Running job "run_spark_job (trigger: cron[month='*', day='*', day_of_week='*', hour='*', minute='*/2'], next run at: 2024-05-22 15:20:00 IST)" (scheduled at 2024-05-22 15:18:00+05:30)
+2024-05-22 15:18:00,006 - INFO - Initializing Spark session with master: spark://0.0.0.0:7077
+2024-05-22 15:18:00,104 - INFO - Running Spark job for recipe_id: rec1 using script: /home/ramees/PycharmProjects/DAS/demo.py
+2024-05-22 15:18:08,823 - INFO - Spark job execution successful
+2024-05-22 15:18:09,096 - INFO - Job "run_spark_job (trigger: cron[month='*', day='*', day_of_week='*', hour='*', minute='*/2'], next run at: 2024-05-22 15:20:00 IST)" executed successfully
+2024-05-22 15:18:09,716 - INFO - Running job "notify_status (trigger: interval[0:01:00], next run at: 2024-05-22 15:19:09 IST)" (scheduled at 2024-05-22 15:18:09.714757+05:30)
+2024-05-22 15:18:09,716 - INFO - Server is running and monitoring tasks
+2024-05-22 15:18:09,717 - INFO - Job "notify_status (trigger: interval[0:01:00], next run at: 2024-05-22 15:19:09 IST)" executed successfully
+2024-05-22 15:18:56,308 - INFO - Running job "notify_status (trigger: interval[0:01:00], next run at: 2024-05-22 15:18:56 IST)" (scheduled at 2024-05-22 15:18:56.302471+05:30)
+2024-05-22 15:18:56,308 - INFO - Running job "notify_status (trigger: interval[0:01:00], next run at: 2024-05-22 15:19:56 IST)" (scheduled at 2024-05-22 15:18:56.302897+05:30)
+2024-05-22 15:18:56,308 - INFO - Running job "notify_status (trigger: interval[0:01:00], next run at: 2024-05-22 15:19:56 IST)" (scheduled at 2024-05-22 15:18:56.303355+05:30)
+2024-05-22 15:18:56,308 - INFO - Server is running and monitoring tasks
+2024-05-22 15:18:56,308 - INFO - Server is running and monitoring tasks
+2024-05-22 15:18:56,308 - INFO - Server is running and monitoring tasks
+2024-05-22 15:18:56,309 - INFO - Job "notify_status (trigger: interval[0:01:00], next run at: 2024-05-22 15:19:56 IST)" executed successfully
+2024-05-22 15:18:56,309 - INFO - Job "notify_status (trigger: interval[0:01:00], next run at: 2024-05-22 15:19:56 IST)" executed successfully
+2024-05-22 15:18:56,309 - INFO - Job "notify_status (trigger: interval[0:01:00], next run at: 2024-05-22 15:19:56 IST)" executed successfully
+2024-05-22 15:19:09,720 - INFO - Running job "notify_status (trigger: interval[0:01:00], next run at: 2024-05-22 15:19:09 IST)" (scheduled at 2024-05-22 15:19:09.714757+05:30)
+2024-05-22 15:19:09,720 - INFO - Server is running and monitoring tasks
+2024-05-22 15:19:09,720 - INFO - Job "notify_status (trigger: interval[0:01:00], next run at: 2024-05-22 15:19:09 IST)" executed successfully
+2024-05-22 15:19:56,308 - INFO - Running job "notify_status (trigger: interval[0:01:00], next run at: 2024-05-22 15:20:56 IST)" (scheduled at 2024-05-22 15:19:56.302897+05:30)
+2024-05-22 15:19:56,309 - INFO - Server is running and monitoring tasks
+2024-05-22 15:19:56,309 - INFO - Job "notify_status (trigger: interval[0:01:00], next run at: 2024-05-22 15:20:56 IST)" executed successfully
+2024-05-22 15:19:56,309 - INFO - Running job "notify_status (trigger: interval[0:01:00], next run at: 2024-05-22 15:20:56 IST)" (scheduled at 2024-05-22 15:19:56.302471+05:30)
+2024-05-22 15:19:56,311 - INFO - Server is running and monitoring tasks
+2024-05-22 15:19:56,311 - INFO - Job "notify_status (trigger: interval[0:01:00], next run at: 2024-05-22 15:20:56 IST)" executed successfully
+2024-05-22 15:19:56,311 - INFO - Running job "notify_status (trigger: interval[0:01:00], next run at: 2024-05-22 15:20:56 IST)" (scheduled at 2024-05-22 15:19:56.303355+05:30)
+2024-05-22 15:19:56,312 - INFO - Server is running and monitoring tasks
+2024-05-22 15:19:56,312 - INFO - Job "notify_status (trigger: interval[0:01:00], next run at: 2024-05-22 15:20:56 IST)" executed successfully
+2024-05-22 15:20:00,000 - INFO - Running job "run_spark_job (trigger: cron[month='*', day='*', day_of_week='*', hour='*', minute='*/2'], next run at: 2024-05-22 15:22:00 IST)" (scheduled at 2024-05-22 15:20:00+05:30)
+2024-05-22 15:20:00,001 - INFO - Initializing Spark session with master: spark://0.0.0.0:7077
+2024-05-22 15:20:00,445 - INFO - Running Spark job for recipe_id: rec1 using script: /home/ramees/PycharmProjects/DAS/demo.py
+2024-05-22 15:20:09,173 - INFO - Spark job execution successful
+2024-05-22 15:20:09,423 - INFO - Job "run_spark_job (trigger: cron[month='*', day='*', day_of_week='*', hour='*', minute='*/2'], next run at: 2024-05-22 15:22:00 IST)" executed successfully
+2024-05-22 15:20:09,715 - INFO - Running job "notify_status (trigger: interval[0:01:00], next run at: 2024-05-22 15:21:09 IST)" (scheduled at 2024-05-22 15:20:09.714757+05:30)
+2024-05-22 15:20:09,716 - INFO - Server is running and monitoring tasks
+2024-05-22 15:20:09,716 - INFO - Job "notify_status (trigger: interval[0:01:00], next run at: 2024-05-22 15:21:09 IST)" executed successfully
+2024-05-22 15:20:56,302 - INFO - Running job "notify_status (trigger: interval[0:01:00], next run at: 2024-05-22 15:21:56 IST)" (scheduled at 2024-05-22 15:20:56.302471+05:30)
+2024-05-22 15:20:56,303 - INFO - Server is running and monitoring tasks
+2024-05-22 15:20:56,303 - INFO - Job "notify_status (trigger: interval[0:01:00], next run at: 2024-05-22 15:21:56 IST)" executed successfully
+2024-05-22 15:20:56,305 - INFO - Running job "notify_status (trigger: interval[0:01:00], next run at: 2024-05-22 15:21:56 IST)" (scheduled at 2024-05-22 15:20:56.302897+05:30)
+2024-05-22 15:20:56,305 - INFO - Server is running and monitoring tasks
+2024-05-22 15:20:56,305 - INFO - Job "notify_status (trigger: interval[0:01:00], next run at: 2024-05-22 15:21:56 IST)" executed successfully
+2024-05-22 15:20:56,306 - INFO - Running job "notify_status (trigger: interval[0:01:00], next run at: 2024-05-22 15:21:56 IST)" (scheduled at 2024-05-22 15:20:56.303355+05:30)
+2024-05-22 15:20:56,307 - INFO - Server is running and monitoring tasks
+2024-05-22 15:20:56,307 - INFO - Job "notify_status (trigger: interval[0:01:00], next run at: 2024-05-22 15:21:56 IST)" executed successfully
+2024-05-22 15:21:00,778 - INFO - Closing down clientserver connection
+2024-05-22 15:21:01,156 - INFO - Closing down clientserver connection
+2024-05-22 15:21:14,684 - INFO - Connected to MongoDB Atlas
+2024-05-22 15:21:14,684 - INFO - {"message": "Waiting for suitable server to become available", "selector": "<function writable_server_selector at 0x7e304b43c3a0>", "operation": "insert", "topologyDescription": "<TopologyDescription id: 664dc012fe4dff7e759ed28c, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-5fy145p-shard-00-00.vcarrff.mongodb.net', 27017) server_type: Unknown, rtt: None>, <ServerDescription ('ac-5fy145p-shard-00-01.vcarrff.mongodb.net', 27017) server_type: Unknown, rtt: None>, <ServerDescription ('ac-5fy145p-shard-00-02.vcarrff.mongodb.net', 27017) server_type: Unknown, rtt: None>]>", "clientId": {"$oid": "664dc012fe4dff7e759ed28c"}, "remainingTimeMS": 29}
+2024-05-22 15:21:18,093 - INFO - Connected to MongoDB Atlas
+2024-05-22 15:47:51,336 - INFO - Connected to MongoDB Atlas
+2024-05-22 15:47:51,336 - INFO - {"message": "Waiting for suitable server to become available", "selector": "<function writable_server_selector at 0x7560e8b50310>", "operation": "insert", "topologyDescription": "<TopologyDescription id: 664dc64fd041138ba0a1ef04, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-5fy145p-shard-00-00.vcarrff.mongodb.net', 27017) server_type: Unknown, rtt: None>, <ServerDescription ('ac-5fy145p-shard-00-01.vcarrff.mongodb.net', 27017) server_type: Unknown, rtt: None>, <ServerDescription ('ac-5fy145p-shard-00-02.vcarrff.mongodb.net', 27017) server_type: Unknown, rtt: None>]>", "clientId": {"$oid": "664dc64fd041138ba0a1ef04"}, "remainingTimeMS": 29}
